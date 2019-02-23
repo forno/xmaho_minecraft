@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2019-02-23 17:39:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2019-02-12 02:16:52 +0000"
@@ -260,6 +266,12 @@
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2019-01-18 20:20:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2019-02-23 16:32:19 +0000"
     },
     "done": true
   },
@@ -524,8 +536,8 @@
       "minecraft:enderman": "2019-02-12 13:25:15 +0000",
       "minecraft:spider": "2019-01-16 17:40:03 +0000",
       "minecraft:zombie": "2019-01-16 17:22:02 +0000",
-      "minecraft:drowned": "2019-01-24 23:18:09 +0000",
       "minecraft:creeper": "2019-01-16 18:05:46 +0000",
+      "minecraft:drowned": "2019-01-24 23:18:09 +0000",
       "minecraft:zombie_villager": "2019-02-12 13:52:16 +0000",
       "minecraft:slime": "2019-02-11 13:13:43 +0000"
     },
@@ -540,6 +552,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2019-02-11 06:54:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed": {
+    "criteria": {
+      "has_orange_wool": "2019-02-23 16:32:56 +0000"
     },
     "done": true
   },
@@ -588,6 +606,12 @@
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2019-01-24 21:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2019-02-23 16:32:19 +0000"
     },
     "done": true
   },
@@ -666,6 +690,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2019-01-20 20:39:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2019-02-23 15:33:21 +0000"
     },
     "done": true
   },
@@ -783,6 +813,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2019-02-23 16:38:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2019-01-16 17:23:31 +0000"
@@ -891,6 +927,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/orange_banner": {
+    "criteria": {
+      "has_orange_wool": "2019-02-23 16:32:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2019-01-18 20:10:50 +0000"
@@ -990,8 +1032,8 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2019-02-12 09:56:14 +0000",
-      "minecraft:forest": "2019-01-16 17:33:49 +0000",
       "minecraft:mountains": "2019-02-12 14:39:14 +0000",
+      "minecraft:forest": "2019-01-16 17:33:49 +0000",
       "minecraft:taiga": "2019-01-24 20:32:14 +0000",
       "minecraft:desert_hills": "2019-02-18 08:29:52 +0000",
       "minecraft:giant_tree_taiga": "2019-01-24 20:32:25 +0000",
@@ -1002,12 +1044,12 @@
       "minecraft:deep_lukewarm_ocean": "2019-02-12 14:42:27 +0000",
       "minecraft:beach": "2019-01-16 17:09:32 +0000",
       "minecraft:dark_forest": "2019-02-12 14:45:21 +0000",
-      "minecraft:river": "2019-01-16 17:38:44 +0000",
       "minecraft:lukewarm_ocean": "2019-02-12 14:41:32 +0000",
+      "minecraft:river": "2019-01-16 17:38:44 +0000",
       "minecraft:birch_forest_hills": "2019-01-16 17:35:56 +0000",
       "minecraft:wooded_hills": "2019-01-16 17:06:56 +0000",
-      "minecraft:giant_tree_taiga_hills": "2019-01-24 20:32:16 +0000",
       "minecraft:stone_shore": "2019-02-12 14:38:59 +0000",
+      "minecraft:giant_tree_taiga_hills": "2019-01-24 20:32:16 +0000",
       "minecraft:swamp": "2019-02-12 09:56:40 +0000",
       "minecraft:plains": "2019-01-16 17:09:40 +0000"
     },
@@ -1100,6 +1142,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2019-01-20 18:31:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2019-02-23 16:32:19 +0000"
     },
     "done": true
   },
@@ -1619,6 +1667,12 @@
   "minecraft:recipes/building_blocks/prismarine_slab": {
     "criteria": {
       "has_prismarine": "2019-02-18 17:38:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet": {
+    "criteria": {
+      "has_orange_wool": "2019-02-23 16:32:56 +0000"
     },
     "done": true
   },
@@ -2186,6 +2240,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2019-02-23 16:16:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2019-01-20 20:39:50 +0000"
@@ -2195,6 +2255,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2019-01-16 17:54:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2019-02-23 16:08:49 +0000"
     },
     "done": true
   },
@@ -2327,6 +2393,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-01-16 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2019-02-23 15:33:21 +0000"
     },
     "done": true
   },

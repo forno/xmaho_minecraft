@@ -200,6 +200,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2019-02-23 14:18:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2019-02-16 16:18:56 +0000"
@@ -281,6 +287,12 @@
   "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2019-02-13 15:30:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2019-02-23 16:43:49 +0000"
     },
     "done": true
   },
@@ -500,6 +512,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2019-02-23 16:37:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2019-02-12 20:23:23 +0000"
@@ -553,6 +571,7 @@
       "minecraft:skeleton": "2019-02-13 16:01:48 +0000",
       "minecraft:phantom": "2019-02-13 16:02:49 +0000",
       "minecraft:witch": "2019-02-21 18:03:42 +0000",
+      "minecraft:zombie_pigman": "2019-02-23 16:43:47 +0000",
       "minecraft:husk": "2019-02-22 15:37:10 +0000",
       "minecraft:spider": "2019-02-12 20:39:38 +0000",
       "minecraft:zombie": "2019-02-16 13:49:43 +0000",
@@ -742,6 +761,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2019-02-23 16:37:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_red_flower": "2019-02-12 20:21:54 +0000"
@@ -883,6 +908,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2019-02-13 16:01:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2019-02-23 16:37:10 +0000"
     },
     "done": true
   },
@@ -1217,6 +1248,12 @@
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2019-02-16 19:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2019-02-23 16:37:10 +0000"
     },
     "done": true
   },
@@ -1864,6 +1901,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2019-02-12 21:11:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2019-02-23 14:18:53 +0000"
     },
     "done": true
   },

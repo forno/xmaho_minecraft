@@ -773,6 +773,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting": {
+    "criteria": {
+      "has_diamond_ore": "2019-02-23 12:19:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-02-22 10:06:03 +0000"
@@ -850,9 +856,10 @@
       "minecraft:skeleton": "2019-02-22 11:30:09 +0000",
       "minecraft:phantom": "2019-02-22 14:02:39 +0000",
       "minecraft:cave_spider": "2019-02-23 11:10:23 +0000",
+      "minecraft:spider": "2019-02-23 12:10:09 +0000",
       "minecraft:zombie": "2019-02-22 11:21:59 +0000",
-      "minecraft:creeper": "2019-02-22 14:10:33 +0000",
-      "minecraft:drowned": "2019-02-22 13:59:06 +0000"
+      "minecraft:drowned": "2019-02-22 13:59:06 +0000",
+      "minecraft:creeper": "2019-02-22 14:10:33 +0000"
     },
     "done": false
   },
@@ -1264,6 +1271,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald_from_smelting": {
+    "criteria": {
+      "has_emerald_ore": "2019-02-23 12:23:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2019-02-22 12:32:52 +0000"
@@ -1506,12 +1519,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2019-02-22 09:51:07 +0000",
       "minecraft:mountains": "2019-02-22 11:40:15 +0000",
+      "minecraft:forest": "2019-02-22 09:51:07 +0000",
       "minecraft:birch_forest": "2019-02-21 12:14:00 +0000",
       "minecraft:beach": "2019-02-21 13:18:00 +0000",
       "minecraft:river": "2019-02-21 13:18:07 +0000",
       "minecraft:wooded_hills": "2019-02-21 12:08:56 +0000",
+      "minecraft:stone_shore": "2019-02-23 12:23:46 +0000",
       "minecraft:plains": "2019-02-21 12:13:26 +0000"
     },
     "done": false
@@ -1636,6 +1650,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2019-02-23 12:28:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2019-02-21 13:18:09 +0000"
@@ -1729,6 +1749,12 @@
   "minecraft:recipes/decorations/brown_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-02-22 12:32:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_at_least_9_diamond": "2019-02-23 12:28:08 +0000"
     },
     "done": true
   },

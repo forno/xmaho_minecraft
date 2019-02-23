@@ -1116,8 +1116,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:mountains": "2019-02-16 18:43:18 +0000",
       "minecraft:forest": "2019-01-17 16:25:35 +0000",
+      "minecraft:mountains": "2019-02-16 18:43:18 +0000",
       "minecraft:deep_cold_ocean": "2019-02-18 16:28:18 +0000",
       "minecraft:desert": "2019-02-22 15:18:15 +0000",
       "minecraft:birch_forest": "2019-02-21 12:14:14 +0000",

@@ -605,6 +605,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2019-02-23 11:51:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
       "has_minecart": "2019-02-22 14:27:21 +0000"
@@ -843,9 +849,10 @@
     "criteria": {
       "minecraft:skeleton": "2019-02-22 11:30:09 +0000",
       "minecraft:phantom": "2019-02-22 14:02:39 +0000",
+      "minecraft:cave_spider": "2019-02-23 11:10:23 +0000",
       "minecraft:zombie": "2019-02-22 11:21:59 +0000",
-      "minecraft:drowned": "2019-02-22 13:59:06 +0000",
-      "minecraft:creeper": "2019-02-22 14:10:33 +0000"
+      "minecraft:creeper": "2019-02-22 14:10:33 +0000",
+      "minecraft:drowned": "2019-02-22 13:59:06 +0000"
     },
     "done": false
   },
@@ -1499,8 +1506,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:mountains": "2019-02-22 11:40:15 +0000",
       "minecraft:forest": "2019-02-22 09:51:07 +0000",
+      "minecraft:mountains": "2019-02-22 11:40:15 +0000",
       "minecraft:birch_forest": "2019-02-21 12:14:00 +0000",
       "minecraft:beach": "2019-02-21 13:18:00 +0000",
       "minecraft:river": "2019-02-21 13:18:07 +0000",
@@ -1542,6 +1549,12 @@
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2019-02-21 14:51:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2019-02-23 11:10:36 +0000"
     },
     "done": true
   },
@@ -1722,6 +1735,12 @@
   "minecraft:recipes/decorations/dark_oak_fence": {
     "criteria": {
       "has_planks": "2019-02-22 15:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2019-02-23 11:21:15 +0000"
     },
     "done": true
   },

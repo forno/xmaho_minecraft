@@ -1,0 +1,306 @@
+---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 2/12/19 8:58 PM
+Description: Watching Server
+
+java.lang.Error
+	at it.unimi.dsi.fastutil.longs.Long2IntLinkedOpenHashMap.removeFirstInt(Long2IntLinkedOpenHashMap.java:488)
+	at bzi.a(SourceFile:34)
+	at cas.a(SourceFile:16)
+	at can.b(SourceFile:14)
+	at can$$Lambda$1653/1053059735.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at cas.a(SourceFile:16)
+	at can.b(SourceFile:14)
+	at can$$Lambda$1653/1053059735.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at cag.a(SourceFile:23)
+	at cao.a(SourceFile:16)
+	at cao$$Lambda$1654/311885445.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at caa.a(SourceFile:25)
+	at cao.a(SourceFile:16)
+	at cao$$Lambda$1654/311885445.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at caj.a(SourceFile:54)
+	at can.b(SourceFile:14)
+	at can$$Lambda$1653/1053059735.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at bzx.a(SourceFile:23)
+	at bau.a(SourceFile:117)
+	at ayv$a.<init>(SourceFile:22)
+	at ayv$1.a(SourceFile:33)
+	at ayv$1.load(SourceFile:30)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153)
+	at ayv.a(SourceFile:44)
+	at ayv.a(SourceFile:48)
+	at bau.a(SourceFile:103)
+	at bpi.a(SourceFile:18)
+	at btl.a(SourceFile:239)
+	at btl.a(SourceFile:150)
+	at bmz.a(SourceFile:80)
+	at tc.a(SourceFile:291)
+	at td.a(SourceFile:1028)
+	at ccx.a(SourceFile:56)
+	at ccn.a(SourceFile:33)
+	at cco.a(SourceFile:55)
+	at cco.b(SourceFile:67)
+	at ccq.a(SourceFile:39)
+	at ccq.a(SourceFile:49)
+	at bka.d(SourceFile:73)
+	at bjl.a(SourceFile:219)
+	at tf.a(SourceFile:776)
+	at bdh.a(SourceFile:219)
+	at blc.a(SourceFile:281)
+	at tg.a(SourceFile:313)
+	at uc.a(SourceFile:925)
+	at nr.a(SourceFile:53)
+	at nr.a(SourceFile:11)
+	at ix.a(SourceFile:10)
+	at ix$$Lambda$1661/1701088833.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at k.a(SourceFile:199)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:726)
+	at so.b(SourceFile:360)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:681)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:584)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at it.unimi.dsi.fastutil.longs.Long2IntLinkedOpenHashMap.removeFirstInt(Long2IntLinkedOpenHashMap.java:488)
+	at bzi.a(SourceFile:34)
+	at cas.a(SourceFile:16)
+	at can.b(SourceFile:14)
+	at can$$Lambda$1653/1053059735.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at cas.a(SourceFile:16)
+	at can.b(SourceFile:14)
+	at can$$Lambda$1653/1053059735.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at cag.a(SourceFile:23)
+	at cao.a(SourceFile:16)
+	at cao$$Lambda$1654/311885445.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at caa.a(SourceFile:25)
+	at cao.a(SourceFile:16)
+	at cao$$Lambda$1654/311885445.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at caj.a(SourceFile:54)
+	at can.b(SourceFile:14)
+	at can$$Lambda$1653/1053059735.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	at bzx.a(SourceFile:23)
+	at bau.a(SourceFile:117)
+	at ayv$a.<init>(SourceFile:22)
+	at ayv$1.a(SourceFile:33)
+	at ayv$1.load(SourceFile:30)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153)
+	at ayv.a(SourceFile:44)
+	at ayv.a(SourceFile:48)
+	at bau.a(SourceFile:103)
+	at bpi.a(SourceFile:18)
+	at btl.a(SourceFile:239)
+	at btl.a(SourceFile:150)
+	at bmz.a(SourceFile:80)
+	at tc.a(SourceFile:291)
+	at td.a(SourceFile:1028)
+	at ccx.a(SourceFile:56)
+	at ccn.a(SourceFile:33)
+	at cco.a(SourceFile:55)
+	at cco.b(SourceFile:67)
+	at ccq.a(SourceFile:39)
+	at ccq.a(SourceFile:49)
+	at bka.d(SourceFile:73)
+	at bjl.a(SourceFile:219)
+	at tf.a(SourceFile:776)
+	at bdh.a(SourceFile:219)
+	at blc.a(SourceFile:281)
+	at tg.a(SourceFile:313)
+	at uc.a(SourceFile:925)
+	at nr.a(SourceFile:53)
+	at nr.a(SourceFile:11)
+	at ix.a(SourceFile:10)
+	at ix$$Lambda$1661/1701088833.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at k.a(SourceFile:199)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:726)
+	at so.b(SourceFile:360)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:681)
+
+-- Thread Dump --
+Details:
+	Threads: "Netty Epoll Server IO #3" Id=1613 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"File IO Thread" Id=1534 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at cdw.c(SourceFile:59)
+	at cdw.run(SourceFile:35)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"WorldGen-Scheduler-1" Id=1532 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4cb6dbab
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4cb6dbab
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #2" Id=1528 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #1" Id=1527 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server Watchdog" Id=1526 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+	at sp.run(SourceFile:45)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #0" Id=1525 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"ObjectCleanerThread" Id=1524 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@42712c4d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@42712c4d
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server console handler" Id=1523 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@464eb0db
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@34c2676
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"DestroyJavaVM" Id=1522 RUNNABLE
+
+
+"Server thread" Id=1520 RUNNABLE
+	at it.unimi.dsi.fastutil.longs.Long2IntLinkedOpenHashMap.removeFirstInt(Long2IntLinkedOpenHashMap.java:488)
+	at bzi.a(SourceFile:34)
+	-  locked it.unimi.dsi.fastutil.longs.Long2IntLinkedOpenHashMap@32858605
+	at cas.a(SourceFile:16)
+	at can.b(SourceFile:14)
+	at can$$Lambda$1653/1053059735.apply(Unknown Source)
+	at bzi.a(SourceFile:30)
+	-  locked it.unimi.dsi.fastutil.longs.Long2IntLinkedOpenHashMap@1fe20e6
+	at cas.a(SourceFile:16)
+	at can.b(SourceFile:14)
+	...
+
+
+"Server Infinisleeper" Id=1519 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at so$1.run(SourceFile:94)
+
+
+"Snooper Timer" Id=1518 WAITING on java.util.TaskQueue@573d45a5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@573d45a5
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@21e9c74c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@21e9c74c
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@682e53f3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@682e53f3
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at sp.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.13.2
+	Operating System: Linux (amd64) version 4.14.94-89.73.amzn2.x86_64
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 17528208 bytes (16 MB) / 491782144 bytes (469 MB) up to 491782144 bytes (469 MB)
+	JVM Flags: 0 total; 
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [tf['RabbitCat'/541, l='world', x=87.30, y=41.02, z=103.41]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

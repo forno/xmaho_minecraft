@@ -1,0 +1,36 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 2/12/19 8:16 PM
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at gy.b(SourceFile:114)
+	at bjw.a(SourceFile:72)
+	at bnv.a(SourceFile:423)
+	at bnv.a(SourceFile:228)
+	at tc.b(SourceFile:199)
+	at tc.a(SourceFile:216)
+	at td.a(SourceFile:728)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:508)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:699)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:584)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.13.2
+	Operating System: Linux (amd64) version 4.14.94-89.73.amzn2.x86_64
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 30845488 bytes (29 MB) / 483393536 bytes (461 MB) up to 483393536 bytes (461 MB)
+	JVM Flags: 0 total; 
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [tf['RabbitCat'/1050, l='world', x=-980.60, y=64.00, z=-440.30]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

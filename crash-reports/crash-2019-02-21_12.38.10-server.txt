@@ -1,0 +1,187 @@
+---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 2/21/19 12:38 PM
+Description: Watching Server
+
+java.lang.Error
+	at tx.a(SourceFile:95)
+	at tc.a(SourceFile:211)
+	at td.a(SourceFile:728)
+	at rj.a(SourceFile:58)
+	at rj.a(SourceFile:39)
+	at rj.b(SourceFile:22)
+	at rj$$Lambda$1330/1077901986.run(Unknown Source)
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:132)
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:72)
+	at bv.a(SourceFile:211)
+	at so.aU(SourceFile:393)
+	at so.b(SourceFile:361)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:681)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:584)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at tx.a(SourceFile:95)
+	at tc.a(SourceFile:211)
+	at td.a(SourceFile:728)
+	at rj.a(SourceFile:58)
+	at rj.a(SourceFile:39)
+	at rj.b(SourceFile:22)
+	at rj$$Lambda$1330/1077901986.run(Unknown Source)
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:132)
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:72)
+	at bv.a(SourceFile:211)
+	at so.aU(SourceFile:393)
+	at so.b(SourceFile:361)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:681)
+
+-- Thread Dump --
+Details:
+	Threads: "File IO Thread" Id=1530 BLOCKED on bnv@4883a83e owned by "Server Shutdown Thread" Id=1521
+	at cdw.c(SourceFile:44)
+	-  blocked on bnv@4883a83e
+	at cdw.run(SourceFile:35)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server Shutdown Thread" Id=1521 RUNNABLE
+	at bwf.<init>(SourceFile:69)
+	at aym.a(SourceFile:107)
+	at aym.a(SourceFile:153)
+	at bnv.a(SourceFile:441)
+	at bnv.a(SourceFile:228)
+	at tc.b(SourceFile:199)
+	at tc.a(SourceFile:216)
+	-  locked bnv@4883a83e
+	at td.a(SourceFile:728)
+	...
+
+
+"SIGTERM handler" Id=1529 BLOCKED on java.lang.Class@46445f5e owned by "SIGHUP handler" Id=1527
+	at java.lang.Shutdown.exit(Shutdown.java:212)
+	-  blocked on java.lang.Class@46445f5e
+	at java.lang.Terminator$1.handle(Terminator.java:52)
+	at sun.misc.Signal$1.run(Signal.java:212)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"SIGTERM handler" Id=1528 BLOCKED on java.lang.Class@46445f5e owned by "SIGHUP handler" Id=1527
+	at java.lang.Shutdown.exit(Shutdown.java:212)
+	-  blocked on java.lang.Class@46445f5e
+	at java.lang.Terminator$1.handle(Terminator.java:52)
+	at sun.misc.Signal$1.run(Signal.java:212)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"SIGHUP handler" Id=1527 WAITING on net.minecraft.server.MinecraftServer$2@15371de2
+	at java.lang.Object.wait(Native Method)
+	-  waiting on net.minecraft.server.MinecraftServer$2@15371de2
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+	at java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+	at java.lang.Shutdown.runHooks(Shutdown.java:123)
+	at java.lang.Shutdown.sequence(Shutdown.java:167)
+	at java.lang.Shutdown.exit(Shutdown.java:212)
+	-  locked java.lang.Class@46445f5e
+	...
+
+
+"Server Watchdog" Id=1526 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+	at sp.run(SourceFile:45)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #0" Id=1525 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"ObjectCleanerThread" Id=1524 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@427bc34e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@427bc34e
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"DestroyJavaVM" Id=1522 RUNNABLE
+
+
+"Server thread" Id=1520 BLOCKED on bnv@4883a83e owned by "Server Shutdown Thread" Id=1521
+	at tx.a(SourceFile:95)
+	-  blocked on bnv@4883a83e
+	at tc.a(SourceFile:211)
+	at td.a(SourceFile:728)
+	at rj.a(SourceFile:58)
+	at rj.a(SourceFile:39)
+	at rj.b(SourceFile:22)
+	at rj$$Lambda$1330/1077901986.run(Unknown Source)
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:132)
+	...
+
+
+"Server Infinisleeper" Id=1519 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at so$1.run(SourceFile:94)
+
+
+"Snooper Timer" Id=1518 WAITING on java.util.TaskQueue@7795565
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@7795565
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@52eedfec
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@52eedfec
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@36b4d440
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@36b4d440
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at sp.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.13.2
+	Operating System: Linux (amd64) version 4.14.88-88.76.amzn2.x86_64
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 211570656 bytes (201 MB) / 583008256 bytes (556 MB) up to 905969664 bytes (864 MB)
+	JVM Flags: 0 total; 
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 10; []
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

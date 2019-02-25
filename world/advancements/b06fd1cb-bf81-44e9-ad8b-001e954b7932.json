@@ -566,6 +566,7 @@
       "minecraft:skeleton": "2019-02-11 23:47:42 +0900",
       "minecraft:phantom": "2019-02-23 00:28:15 +0900",
       "minecraft:witch": "2019-02-12 00:25:47 +0900",
+      "minecraft:husk": "2019-02-25 18:11:30 +0900",
       "minecraft:cave_spider": "2019-02-17 01:48:45 +0900",
       "minecraft:guardian": "2019-02-24 00:10:07 +0900",
       "minecraft:enderman": "2019-02-16 02:02:01 +0900",
@@ -1020,6 +1021,7 @@
       "minecraft:giant_tree_taiga": "2019-02-14 23:39:39 +0900",
       "minecraft:deep_cold_ocean": "2019-02-15 00:09:03 +0900",
       "minecraft:taiga_hills": "2019-02-14 23:39:27 +0900",
+      "minecraft:desert": "2019-02-25 18:02:36 +0900",
       "minecraft:deep_frozen_ocean": "2019-02-15 00:09:07 +0900",
       "minecraft:birch_forest": "2019-02-14 18:44:48 +0900",
       "minecraft:warm_ocean": "2019-02-15 00:14:07 +0900",
@@ -1600,6 +1602,12 @@
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-02-11 16:00:56 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cactus_green": {
+    "criteria": {
+      "has_cactus": "2019-02-25 18:05:22 +0900"
     },
     "done": true
   },

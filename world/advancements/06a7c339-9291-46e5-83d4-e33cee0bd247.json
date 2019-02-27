@@ -364,6 +364,7 @@
       "cooked_porkchop": "2019-02-22 20:08:25 +0900",
       "cooked_mutton": "2019-02-22 22:58:20 +0900",
       "cooked_beef": "2019-02-21 22:15:19 +0900",
+      "potato": "2019-02-26 18:07:50 +0900",
       "cooked_cod": "2019-02-23 00:38:24 +0900",
       "bread": "2019-02-22 21:09:30 +0900",
       "cooked_salmon": "2019-02-22 23:13:18 +0900"
@@ -448,13 +449,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-02-21 23:44:37 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-02-21 23:44:37 +0900"
     },
@@ -827,13 +828,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_hoe": {
+  "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2019-02-22 21:47:18 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_pickaxe": {
+  "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2019-02-22 21:47:18 +0900"
     },

@@ -1,0 +1,12 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2019-02-27 01:58:12 +0900",
+      "minecraft:beach": "2019-02-27 01:57:25 +0900",
+      "minecraft:river": "2019-02-27 01:57:32 +0900",
+      "minecraft:wooded_hills": "2019-02-27 01:54:11 +0900",
+      "minecraft:plains": "2019-02-27 01:56:52 +0900"
+    },
+    "done": false
+  }
+}

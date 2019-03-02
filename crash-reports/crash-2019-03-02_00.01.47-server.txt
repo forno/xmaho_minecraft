@@ -1,0 +1,274 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2019/03/02 0:01
+Description: Watching Server
+
+java.lang.Error
+	at java.base@10.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@10.0.2/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1812)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$1445/1322319479.getAsBoolean(Unknown Source)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300)
+	at java.base@10.0.2/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)
+	at java.base@10.0.2/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)
+	at java.base@10.0.2/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//xt$1.tryAdvance(SourceFile:32)
+	at java.base@10.0.2/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//cet.a(SourceFile:182)
+	at app//aer.a(SourceFile:643)
+	at app//afa.a(SourceFile:1697)
+	at app//afa.k(SourceFile:1998)
+	at app//afb.k(SourceFile:495)
+	at app//aeo.k(SourceFile:134)
+	at app//afa.R_(SourceFile:1819)
+	at app//afb.R_(SourceFile:279)
+	at app//axy.a(SourceFile:1243)
+	at app//td.a(SourceFile:575)
+	at app//axy.g(SourceFile:1218)
+	at app//axy.o_(SourceFile:1100)
+	at app//td.o_(SourceFile:491)
+	at app//net.minecraft.server.MinecraftServer.b(SourceFile:755)
+	at app//so.b(SourceFile:360)
+	at app//net.minecraft.server.MinecraftServer.a(SourceFile:681)
+	at app//net.minecraft.server.MinecraftServer.run(SourceFile:584)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@10.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@10.0.2/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1812)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$1445/1322319479.getAsBoolean(Unknown Source)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300)
+	at java.base@10.0.2/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)
+	at java.base@10.0.2/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)
+	at java.base@10.0.2/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//xt$1.tryAdvance(SourceFile:32)
+	at java.base@10.0.2/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//cet.a(SourceFile:182)
+	at app//aer.a(SourceFile:643)
+	at app//afa.a(SourceFile:1697)
+	at app//afa.k(SourceFile:1998)
+	at app//afb.k(SourceFile:495)
+	at app//aeo.k(SourceFile:134)
+	at app//afa.R_(SourceFile:1819)
+	at app//afb.R_(SourceFile:279)
+	at app//axy.a(SourceFile:1243)
+	at app//td.a(SourceFile:575)
+	at app//axy.g(SourceFile:1218)
+	at app//axy.o_(SourceFile:1100)
+	at app//td.o_(SourceFile:491)
+	at app//net.minecraft.server.MinecraftServer.b(SourceFile:755)
+	at app//so.b(SourceFile:360)
+	at app//net.minecraft.server.MinecraftServer.a(SourceFile:681)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@10.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@10.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:174)
+	at java.base@10.0.2/java.lang.ref.Reference.access$000(Reference.java:44)
+	at java.base@10.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:138)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@aad8616
+	at java.base@10.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@aad8616
+	at java.base@10.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@10.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:172)
+	at java.base@10.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=10 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@46a6933
+	at java.base@10.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@46a6933
+	at java.base@10.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@10.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+	at java.base@10.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+
+"ForkJoinPool.commonPool-worker-3" daemon prio=5 Id=16 WAITING on java.util.concurrent.ForkJoinPool@55ed66
+	at java.base@10.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@55ed66
+	at java.base@10.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@10.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1668)
+	at java.base@10.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+
+"Snooper Timer" daemon prio=5 Id=17 WAITING on java.util.TaskQueue@45576308
+	at java.base@10.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@45576308
+	at java.base@10.0.2/java.lang.Object.wait(Object.java:328)
+	at java.base@10.0.2/java.util.TimerThread.mainLoop(Timer.java:527)
+	at java.base@10.0.2/java.util.TimerThread.run(Timer.java:506)
+
+
+"Server Infinisleeper" daemon prio=5 Id=18 TIMED_WAITING
+	at java.base@10.0.2/java.lang.Thread.sleep(Native Method)
+	at app//so$1.run(SourceFile:94)
+
+
+"Server thread" prio=5 Id=19 RUNNABLE
+	at java.base@10.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@10.0.2/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1812)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$1445/1322319479.getAsBoolean(Unknown Source)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169)
+	at java.base@10.0.2/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300)
+	at java.base@10.0.2/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)
+	...
+
+
+"DestroyJavaVM" prio=5 Id=21 RUNNABLE
+
+
+"Server console handler" daemon prio=5 Id=22 RUNNABLE (in native)
+	at java.base@10.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@10.0.2/java.io.FileInputStream.read(FileInputStream.java:280)
+	at java.base@10.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base@10.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	-  locked java.io.BufferedInputStream@232cc082
+	at java.base@10.0.2/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base@10.0.2/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base@10.0.2/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@74580625
+	at java.base@10.0.2/java.io.InputStreamReader.read(InputStreamReader.java:185)
+	...
+
+
+"ObjectCleanerThread" daemon prio=1 Id=23 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@5bc9fb15
+	at java.base@10.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@5bc9fb15
+	at java.base@10.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at app//io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=24 RUNNABLE (in native)
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Server Watchdog" daemon prio=5 Id=25 RUNNABLE
+	at java.management@10.0.2/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@10.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:502)
+	at java.management@10.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:490)
+	at app//sp.run(SourceFile:45)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"File IO Thread" prio=1 Id=26 TIMED_WAITING
+	at java.base@10.0.2/java.lang.Thread.sleep(Native Method)
+	at app//cdw.c(SourceFile:59)
+	at app//cdw.run(SourceFile:35)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=27 RUNNABLE
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=31 RUNNABLE (in native)
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=32 RUNNABLE
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #4" daemon prio=5 Id=33 RUNNABLE
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #5" daemon prio=5 Id=37 RUNNABLE
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #6" daemon prio=5 Id=38 RUNNABLE
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #7" daemon prio=5 Id=39 RUNNABLE
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+
+
+"Keep-Alive-Timer" daemon prio=8 Id=51 TIMED_WAITING
+	at java.base@10.0.2/java.lang.Thread.sleep(Native Method)
+	at java.base@10.0.2/sun.net.www.http.KeepAliveCache.run(KeepAliveCache.java:168)
+	at java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+	at java.base@10.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+
+
+Stacktrace:
+	at sp.run(SourceFile:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.13.2
+	Operating System: Linux (amd64) version 4.15.0-45-generic
+	Java Version: 10.0.2, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 782211072 bytes (745 MB) / 3221225472 bytes (3072 MB) up to 3221225472 bytes (3072 MB)
+	JVM Flags: 2 total; -Xms3g -Xmx3g
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 10; [tf['pura1980'/334332, l='world', x=-174.18, y=63.00, z=256.50]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

@@ -1,93 +1,50 @@
-[00:03:04] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:03:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:03:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:03:04] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:03:04] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:03:05] [main/INFO]: Loaded 0 recipes
-[00:03:05] [main/INFO]: Loaded 0 advancements
-[00:03:05] [Server thread/INFO]: Starting minecraft server version 1.13.2
-[00:03:05] [Server thread/INFO]: Loading properties
-[00:03:05] [Server thread/INFO]: Default game type: SURVIVAL
-[00:03:05] [Server thread/INFO]: Generating keypair
-[00:03:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:03:05] [Server thread/INFO]: Using epoll channel type
-[00:03:06] [Server thread/INFO]: Preparing level "world"
-[00:03:06] [Server thread/INFO]: Reloading ResourceManager: Default
-[00:03:07] [Server thread/INFO]: Loaded 524 recipes
-[00:03:08] [Server thread/INFO]: Loaded 571 advancements
-[00:03:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:03:09] [Server thread/INFO]: Preparing spawn area: 4%
-[00:03:09] [Server thread/INFO]: Preparing spawn area: 8%
-[00:03:09] [Server thread/INFO]: Preparing spawn area: 12%
-[00:03:10] [Server thread/INFO]: Preparing spawn area: 16%
-[00:03:10] [Server thread/INFO]: Preparing spawn area: 20%
-[00:03:10] [Server thread/INFO]: Preparing spawn area: 24%
-[00:03:10] [Server thread/INFO]: Preparing spawn area: 28%
-[00:03:10] [Server thread/INFO]: Preparing spawn area: 32%
-[00:03:11] [Server thread/INFO]: Preparing spawn area: 36%
-[00:03:11] [Server thread/INFO]: Preparing spawn area: 40%
-[00:03:11] [Server thread/INFO]: Preparing spawn area: 44%
-[00:03:11] [Server thread/INFO]: Preparing spawn area: 48%
-[00:03:11] [Server thread/INFO]: Preparing spawn area: 52%
-[00:03:12] [Server thread/INFO]: Preparing spawn area: 56%
-[00:03:13] [Server thread/INFO]: Preparing spawn area: 60%
-[00:03:13] [Server thread/INFO]: Preparing spawn area: 64%
-[00:03:13] [Server thread/INFO]: Preparing spawn area: 68%
-[00:03:13] [Server thread/INFO]: Preparing spawn area: 72%
-[00:03:13] [Server thread/INFO]: Preparing spawn area: 76%
-[00:03:13] [Server thread/INFO]: Preparing spawn area: 80%
-[00:03:14] [Server thread/INFO]: Preparing spawn area: 84%
-[00:03:14] [Server thread/INFO]: Preparing spawn area: 88%
-[00:03:14] [Server thread/INFO]: Preparing spawn area: 92%
-[00:03:14] [Server thread/INFO]: Preparing spawn area: 96%
-[00:03:14] [Server thread/INFO]: Preparing spawn area: 100%
-[00:03:14] [Server thread/INFO]: Time elapsed: 5251 ms
-[00:03:14] [Server thread/INFO]: Done (8.256s)! For help, type "help"
-[00:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[00:03:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6061ms or 121 ticks behind
-[00:07:53] [User Authenticator #1/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
-[00:07:53] [Server thread/INFO]: pura1980[/133.137.7.241:52864] logged in with entity id 924 at (-174.17847120964666, 63.0, 256.5)
-[00:07:53] [Server thread/INFO]: pura1980 joined the game
-[00:08:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[00:10:02] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
-[00:10:02] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
-[00:10:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[00:10:25] [Server thread/INFO]: pura1980 lost connection: Timed out
-[00:10:25] [Server thread/INFO]: pura1980 left the game
-[00:10:36] [User Authenticator #2/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
-[00:10:36] [Server thread/INFO]: pura1980[/133.137.7.241:52892] logged in with entity id 7255 at (-15.083912299508967, 68.0, 29.5)
-[00:10:36] [Server thread/INFO]: pura1980 joined the game
-[00:10:36] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
-[00:10:36] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
-[00:10:52] [Server thread/INFO]: pura1980 lost connection: Timed out
-[00:10:52] [Server thread/INFO]: pura1980 left the game
-[00:11:02] [User Authenticator #3/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
-[00:11:02] [Server thread/INFO]: pura1980[/133.137.7.241:52896] logged in with entity id 7336 at (-15.083912299508967, 68.0, 29.5)
-[00:11:02] [Server thread/INFO]: pura1980 joined the game
-[00:11:02] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
-[00:11:02] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
-[00:11:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2269ms or 45 ticks behind
-[01:48:07] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
-[01:48:07] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
-[01:48:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5120ms or 102 ticks behind
-[02:07:40] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
-[02:07:40] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
-[02:21:20] [Server thread/INFO]: pura1980 lost connection: Disconnected
-[02:21:20] [Server thread/INFO]: pura1980 left the game
-[10:16:26] [User Authenticator #4/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
-[10:16:27] [Server thread/INFO]: pura1980[/133.137.7.241:57413] logged in with entity id 132351 at (589.986451349518, 41.5625, 714.7211624062967)
-[10:16:27] [Server thread/INFO]: pura1980 joined the game
-[11:15:19] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
-[11:15:19] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
-[11:16:27] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
-[11:16:27] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
-[11:17:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11315ms or 226 ticks behind
-[11:17:10] [Server thread/WARN]: pura1980 moved too quickly! -0.09389348809801845,0.0,-10.193874838300701
-[11:32:02] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
-[11:32:02] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
-[12:00:06] [Server thread/INFO]: [Server] SERVER SHUTTING DOWN. Saving map...
+[01:08:39] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
+[01:08:39] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
+[01:09:48] [User Authenticator #6/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
+[01:09:56] [Server thread/INFO]: pura1980 lost connection: Disconnected
+[01:09:56] [Server thread/INFO]: pura1980 left the game
+[01:09:56] [Server thread/INFO]: pura1980[/133.137.7.241:50061] logged in with entity id 227782 at (-174.3112805705886, 63.0, 256.5)
+[01:09:56] [Server thread/INFO]: pura1980 joined the game
+[01:09:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45925ms or 918 ticks behind
+[01:09:56] [Server thread/WARN]: pura1980 moved too quickly! -0.24896002499485803,0.0,-10.108187069645396
+[01:26:26] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
+[01:26:26] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
+[01:26:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[02:33:21] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
+[02:33:21] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
+[02:33:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3989ms or 79 ticks behind
+[02:48:51] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
+[02:48:51] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
+[02:49:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[02:50:50] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 54ecd812-cfb9-430b-a758-0b56407e5b9c
+[02:50:50] [Server thread/WARN]: Keeping entity minecraft:zombie_pigman that already exists with UUID 1e8e5fc9-81c6-45fc-9f29-9168f27ff91b
+[04:10:41] [User Authenticator #7/INFO]: UUID of player FORNya is 5402b13f-5462-4416-bfe5-12cea1cec9ea
+[04:10:41] [Server thread/INFO]: FORNya[/192.168.0.110:56080] logged in with entity id 430362 at (-171.24814873748704, 29.0, 192.52712797317466)
+[04:10:41] [Server thread/INFO]: FORNya joined the game
+[04:11:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28825ms or 576 ticks behind
+[04:11:10] [Server thread/WARN]: pura1980 moved too quickly! -0.1797075552113938,0.0,10.132794113475825
+[04:11:10] [Server thread/INFO]: [FORNya: Teleported FORNya to pura1980]
+[04:11:10] [Server thread/INFO]: [FORNya: Teleported FORNya to pura1980]
+[04:11:28] [Server thread/INFO]: <FORNya> お，スライムちゃんくやんけ
+[04:12:10] [Server thread/INFO]: FORNya lost connection: Disconnected
+[04:12:10] [Server thread/INFO]: FORNya left the game
+[04:12:16] [Server thread/INFO]: <pura1980> ここに関してはそうじゃないほうがありがたかった
+[04:37:32] [Server thread/INFO]: pura1980 lost connection: Disconnected
+[04:37:32] [Server thread/INFO]: pura1980 left the game
+[12:00:05] [Server thread/INFO]: [Server] SERVER SHUTTING DOWN. Saving map...
 [12:00:06] [Server thread/INFO]: Saving the game (this may take a moment!)
+[12:00:06] [Server thread/INFO]: Saved the game
+[12:00:06] [Server thread/INFO]: Stopping the server
+[12:00:06] [Server thread/INFO]: Stopping server
+[12:00:06] [Server thread/INFO]: Saving players
+[12:00:06] [Server thread/INFO]: Saving worlds
+[12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
 [12:00:06] [Server Shutdown Thread/INFO]: Stopping server
+[12:00:06] [Server Shutdown Thread/INFO]: Saving players
+[12:00:06] [Server Shutdown Thread/INFO]: Saving worlds
+[12:00:06] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
 [12:00:06] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: 入力/出力エラーです
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
@@ -102,3 +59,4 @@ java.io.IOException: 入力/出力エラーです
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at so$2.run(SourceFile:110) [server.jar:?]
+[12:00:06] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld

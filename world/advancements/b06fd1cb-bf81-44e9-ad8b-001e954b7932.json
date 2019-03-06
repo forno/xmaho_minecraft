@@ -571,6 +571,7 @@
       "minecraft:guardian": "2019-02-24 00:10:07 +0900",
       "minecraft:enderman": "2019-02-16 02:02:01 +0900",
       "minecraft:silverfish": "2019-02-17 04:05:35 +0900",
+      "minecraft:magma_cube": "2019-03-05 19:32:51 +0900",
       "minecraft:spider": "2019-02-16 22:39:29 +0900",
       "minecraft:zombie": "2019-02-11 23:15:48 +0900",
       "minecraft:creeper": "2019-02-11 23:56:09 +0900",
@@ -1938,6 +1939,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2019-02-11 15:37:05 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_the_recipe": "2019-03-06 00:41:29 +0900"
     },
     "done": true
   },

@@ -176,6 +176,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2019-03-07 11:19:23 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2019-02-15 00:08:27 +0900"
@@ -197,6 +203,12 @@
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2019-02-17 23:11:20 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2019-03-07 01:24:12 +0900"
     },
     "done": true
   },
@@ -567,6 +579,7 @@
       "minecraft:phantom": "2019-02-23 00:28:15 +0900",
       "minecraft:witch": "2019-02-12 00:25:47 +0900",
       "minecraft:husk": "2019-02-25 18:11:30 +0900",
+      "minecraft:shulker": "2019-03-07 00:30:43 +0900",
       "minecraft:cave_spider": "2019-02-17 01:48:45 +0900",
       "minecraft:guardian": "2019-02-24 00:10:07 +0900",
       "minecraft:enderman": "2019-02-16 02:02:01 +0900",
@@ -1451,6 +1464,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_beef": "2019-02-18 22:13:23 +0900",
+      "chorus_fruit": "2019-03-07 01:52:50 +0900",
       "cooked_chicken": "2019-02-11 15:42:18 +0900"
     },
     "done": false
@@ -2176,6 +2190,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2019-03-07 00:30:57 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2019-02-11 16:24:38 +0900"
@@ -2215,6 +2235,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2019-02-17 19:34:00 +0900"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2019-03-07 01:50:46 +0900"
     },
     "done": true
   },

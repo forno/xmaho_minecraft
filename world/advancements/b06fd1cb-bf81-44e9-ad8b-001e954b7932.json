@@ -518,6 +518,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2019-03-09 02:40:32 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2019-02-11 15:37:05 +0900"
@@ -786,6 +792,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2019-03-09 02:40:32 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_red_flower": "2019-02-15 23:43:55 +0900"
@@ -897,6 +909,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2019-02-11 18:38:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2019-03-09 02:40:32 +0900"
     },
     "done": true
   },
@@ -1029,18 +1047,26 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2019-02-15 00:09:09 +0900",
+      "minecraft:jungle_edge": "2019-03-08 18:03:26 +0900",
       "minecraft:mountains": "2019-02-14 23:35:21 +0900",
       "minecraft:forest": "2019-02-13 18:15:15 +0900",
+      "minecraft:mushroom_fields": "2019-03-08 17:53:53 +0900",
       "minecraft:taiga": "2019-02-14 23:40:58 +0900",
+      "minecraft:desert_hills": "2019-03-08 18:14:00 +0900",
       "minecraft:giant_tree_taiga": "2019-02-14 23:39:39 +0900",
       "minecraft:deep_cold_ocean": "2019-02-15 00:09:03 +0900",
       "minecraft:taiga_hills": "2019-02-14 23:39:27 +0900",
       "minecraft:desert": "2019-02-25 18:02:36 +0900",
       "minecraft:deep_frozen_ocean": "2019-02-15 00:09:07 +0900",
+      "minecraft:jungle": "2019-03-08 18:03:29 +0900",
       "minecraft:birch_forest": "2019-02-14 18:44:48 +0900",
+      "minecraft:jungle_hills": "2019-03-08 18:12:57 +0900",
       "minecraft:warm_ocean": "2019-02-15 00:14:07 +0900",
       "minecraft:deep_lukewarm_ocean": "2019-02-15 00:12:15 +0900",
+      "minecraft:badlands": "2019-03-08 18:14:30 +0900",
+      "minecraft:savanna_plateau": "2019-03-08 18:13:36 +0900",
       "minecraft:beach": "2019-02-11 15:36:07 +0900",
+      "minecraft:dark_forest": "2019-03-08 18:03:14 +0900",
       "minecraft:lukewarm_ocean": "2019-02-14 23:08:00 +0900",
       "minecraft:river": "2019-02-11 15:40:52 +0900",
       "minecraft:birch_forest_hills": "2019-02-23 22:10:24 +0900",
@@ -1048,7 +1074,9 @@
       "minecraft:wooded_hills": "2019-02-11 15:35:38 +0900",
       "minecraft:stone_shore": "2019-02-14 23:07:48 +0900",
       "minecraft:giant_tree_taiga_hills": "2019-02-14 23:40:22 +0900",
+      "minecraft:mushroom_field_shore": "2019-03-08 17:53:30 +0900",
       "minecraft:swamp": "2019-02-14 23:49:40 +0900",
+      "minecraft:savanna": "2019-03-08 18:13:24 +0900",
       "minecraft:plains": "2019-02-11 15:36:12 +0900"
     },
     "done": false
@@ -1254,6 +1282,12 @@
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2019-02-11 16:00:42 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2019-03-09 02:40:32 +0900"
     },
     "done": true
   },

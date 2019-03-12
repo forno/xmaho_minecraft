@@ -726,6 +726,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2019-03-12 00:42:15 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2019-02-11 15:39:46 +0900"
@@ -1727,8 +1733,11 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:mooshroom": "2019-03-11 22:24:09 +0900",
       "minecraft:cow": "2019-02-13 18:01:05 +0900",
-      "minecraft:turtle": "2019-02-20 18:59:19 +0900"
+      "minecraft:pig": "2019-03-11 22:40:34 +0900",
+      "minecraft:turtle": "2019-02-20 18:59:19 +0900",
+      "minecraft:sheep": "2019-03-11 23:15:37 +0900"
     },
     "done": false
   },

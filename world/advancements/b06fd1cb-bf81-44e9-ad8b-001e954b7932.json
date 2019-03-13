@@ -1563,6 +1563,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2019-03-12 20:28:14 +0900",
       "cooked_beef": "2019-02-18 22:13:23 +0900",
       "chorus_fruit": "2019-03-07 01:52:50 +0900",
       "cooked_chicken": "2019-02-11 15:42:18 +0900"

@@ -302,6 +302,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2019-03-13 19:54:40 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2019-02-11 17:51:47 +0900"
@@ -596,6 +602,7 @@
       "minecraft:skeleton": "2019-02-11 23:47:42 +0900",
       "minecraft:phantom": "2019-02-23 00:28:15 +0900",
       "minecraft:witch": "2019-02-12 00:25:47 +0900",
+      "minecraft:zombie_pigman": "2019-03-13 19:54:40 +0900",
       "minecraft:husk": "2019-02-25 18:11:30 +0900",
       "minecraft:shulker": "2019-03-07 00:30:43 +0900",
       "minecraft:cave_spider": "2019-02-17 01:48:45 +0900",
@@ -1566,6 +1573,7 @@
       "cooked_porkchop": "2019-03-12 20:28:14 +0900",
       "cooked_beef": "2019-02-18 22:13:23 +0900",
       "chorus_fruit": "2019-03-07 01:52:50 +0900",
+      "baked_potato": "2019-03-13 20:29:00 +0900",
       "cooked_chicken": "2019-02-11 15:42:18 +0900"
     },
     "done": false

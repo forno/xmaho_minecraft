@@ -188,6 +188,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2019-03-14 23:06:40 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2019-02-11 15:40:36 +0900"
@@ -817,6 +823,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2019-03-14 23:28:18 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2019-02-11 16:01:40 +0900"
@@ -898,6 +910,12 @@
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_log": "2019-02-11 16:24:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2019-03-14 23:16:12 +0900"
     },
     "done": true
   },
@@ -1118,6 +1136,7 @@
       "minecraft:mountains": "2019-02-14 23:35:21 +0900",
       "minecraft:forest": "2019-02-13 18:15:15 +0900",
       "minecraft:mushroom_fields": "2019-03-08 17:53:53 +0900",
+      "minecraft:badlands_plateau": "2019-03-15 00:05:46 +0900",
       "minecraft:taiga": "2019-02-14 23:40:58 +0900",
       "minecraft:desert_hills": "2019-03-08 18:14:00 +0900",
       "minecraft:giant_tree_taiga": "2019-02-14 23:39:39 +0900",
@@ -1142,6 +1161,7 @@
       "minecraft:stone_shore": "2019-02-14 23:07:48 +0900",
       "minecraft:giant_tree_taiga_hills": "2019-02-14 23:40:22 +0900",
       "minecraft:mushroom_field_shore": "2019-03-08 17:53:30 +0900",
+      "minecraft:wooded_badlands_plateau": "2019-03-14 23:16:51 +0900",
       "minecraft:swamp": "2019-02-14 23:49:40 +0900",
       "minecraft:savanna": "2019-03-08 18:13:24 +0900",
       "minecraft:plains": "2019-02-11 15:36:12 +0900"
@@ -1692,6 +1712,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2019-03-14 23:28:54 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2019-02-11 17:51:47 +0900"
@@ -1789,6 +1815,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2019-02-11 17:51:47 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2019-03-14 23:08:37 +0900"
     },
     "done": true
   },
@@ -2155,6 +2187,12 @@
   "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
       "has_double_plant": "2019-03-10 02:41:36 +0900"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2019-03-14 19:28:20 +0900"
     },
     "done": true
   },

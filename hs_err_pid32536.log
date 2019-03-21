@@ -1,0 +1,360 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 3221225472 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2706), pid=32536, tid=32538
+#
+# JRE version:  (10.0.2+13) (build )
+# Java VM: OpenJDK 64-Bit Server VM (10.0.2+13-Ubuntu-1ubuntu0.18.04.4, mixed mode, aot, tiered, compressed oops, g1 gc, linux-amd64)
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P" (or dumping to /opt/forno/minecraft/core.32536)
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Xms3g -Xmx3g server.jar nogui
+
+Host: Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz, 4 cores, 3G, Ubuntu 18.04.2 LTS
+Time: Thu Mar 21 08:09:21 2019 JST elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fa898011000):  JavaThread "Unknown thread" [_thread_in_vm, id=32538, stack(0x00007fa89f8a1000,0x00007fa89f9a2000)]
+
+Stack: [0x00007fa89f8a1000,0x00007fa89f9a2000],  sp=0x00007fa89f9a02e0,  free space=1020k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xd27ea4]
+V  [libjvm.so+0xd28a4b]
+V  [libjvm.so+0x64d415]
+V  [libjvm.so+0xb2d7c8]
+V  [libjvm.so+0xb2601d]
+V  [libjvm.so+0x7662ff]
+V  [libjvm.so+0x76653e]
+V  [libjvm.so+0x769500]
+V  [libjvm.so+0x7efa1c]
+V  [libjvm.so+0x7f06df]
+V  [libjvm.so+0x7f0b59]
+V  [libjvm.so+0x7162cf]
+V  [libjvm.so+0x71afd3]
+V  [libjvm.so+0xce5dc2]
+V  [libjvm.so+0xce60c6]
+V  [libjvm.so+0x807d57]
+V  [libjvm.so+0xcc7ac4]
+V  [libjvm.so+0x8601b1]  JNI_CreateJavaVM+0x51
+C  [libjli.so+0x3d83]
+C  [libjli.so+0x89dd]
+C  [libpthread.so.0+0x76db]  start_thread+0xdb
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x000055b1a6fcd6b0, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x00007fa898028000 GCTaskThread "GC Thread#0" [stack: 0x00007fa87f441000,0x00007fa87f541000] [id=32539]
+  0x00007fa898029000 GCTaskThread "GC Thread#1" [stack: 0x00007fa87f33f000,0x00007fa87f43f000] [id=32540]
+  0x00007fa89802b000 GCTaskThread "GC Thread#2" [stack: 0x00007fa87f23d000,0x00007fa87f33d000] [id=32541]
+  0x00007fa89802c800 GCTaskThread "GC Thread#3" [stack: 0x00007fa87f13b000,0x00007fa87f23b000] [id=32542]
+  0x00007fa89806a000 ConcurrentGCThread "G1 Main Marker" [stack: 0x00007fa87d975000,0x00007fa87da75000] [id=32543]
+  0x00007fa89806c000 ConcurrentGCThread "G1 Conc#0" [stack: 0x00007fa87d873000,0x00007fa87d973000] [id=32544]
+
+[error occurred during error reporting (printing all threads), id 0xe0000002]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007fa89800df30] Heap_lock - owner thread: 0x00007fa898011000
+
+Heap address: 0x0000000700000000, size: 3072 MB, Compressed Oops mode: Non-zero based: 0x0000000700000000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+55b1a68c1000-55b1a68c2000 r-xp 00000000 fd:00 20185882                   /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+55b1a6ac2000-55b1a6ac3000 r--p 00001000 fd:00 20185882                   /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+55b1a6ac3000-55b1a6ac4000 rw-p 00002000 fd:00 20185882                   /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+55b1a6fb6000-55b1a6fd7000 rw-p 00000000 00:00 0                          [heap]
+7fa858000000-7fa858021000 rw-p 00000000 00:00 0 
+7fa858021000-7fa85c000000 ---p 00000000 00:00 0 
+7fa85e000000-7fa860000000 rw-p 00000000 00:00 0 
+7fa860000000-7fa860021000 rw-p 00000000 00:00 0 
+7fa860021000-7fa864000000 ---p 00000000 00:00 0 
+7fa865000000-7fa868000000 ---p 00000000 00:00 0 
+7fa868000000-7fa868021000 rw-p 00000000 00:00 0 
+7fa868021000-7fa86c000000 ---p 00000000 00:00 0 
+7fa86d000000-7fa870000000 ---p 00000000 00:00 0 
+7fa870000000-7fa870021000 rw-p 00000000 00:00 0 
+7fa870021000-7fa874000000 ---p 00000000 00:00 0 
+7fa874000000-7fa874021000 rw-p 00000000 00:00 0 
+7fa874021000-7fa878000000 ---p 00000000 00:00 0 
+7fa878000000-7fa878021000 rw-p 00000000 00:00 0 
+7fa878021000-7fa87c000000 ---p 00000000 00:00 0 
+7fa87d46d000-7fa87d871000 rw-p 00000000 00:00 0 
+7fa87d871000-7fa87d872000 ---p 00000000 00:00 0 
+7fa87d872000-7fa87d973000 rw-p 00000000 00:00 0 
+7fa87d973000-7fa87d974000 ---p 00000000 00:00 0 
+7fa87d974000-7fa87db35000 rw-p 00000000 00:00 0 
+7fa87db35000-7fa87ed35000 ---p 00000000 00:00 0 
+7fa87ed35000-7fa87f139000 rw-p 00000000 00:00 0 
+7fa87f139000-7fa87f13a000 ---p 00000000 00:00 0 
+7fa87f13a000-7fa87f23b000 rw-p 00000000 00:00 0 
+7fa87f23b000-7fa87f23c000 ---p 00000000 00:00 0 
+7fa87f23c000-7fa87f33d000 rw-p 00000000 00:00 0 
+7fa87f33d000-7fa87f33e000 ---p 00000000 00:00 0 
+7fa87f33e000-7fa87f43f000 rw-p 00000000 00:00 0 
+7fa87f43f000-7fa87f440000 ---p 00000000 00:00 0 
+7fa87f440000-7fa87f546000 rw-p 00000000 00:00 0 
+7fa87f546000-7fa87f62c000 ---p 00000000 00:00 0 
+7fa87f62c000-7fa87f631000 rw-p 00000000 00:00 0 
+7fa87f631000-7fa87f717000 ---p 00000000 00:00 0 
+7fa87f717000-7fa87f987000 rwxp 00000000 00:00 0 
+7fa87f987000-7fa87fca7000 ---p 00000000 00:00 0 
+7fa87fca7000-7fa87ff17000 rwxp 00000000 00:00 0 
+7fa87ff17000-7fa8871df000 ---p 00000000 00:00 0 
+7fa8871df000-7fa88744f000 rwxp 00000000 00:00 0 
+7fa88744f000-7fa88e717000 ---p 00000000 00:00 0 
+7fa88e717000-7fa897bf2000 r--s 00000000 fd:00 20186057                   /usr/lib/jvm/java-11-openjdk-amd64/lib/modules
+7fa897bf2000-7fa897bf7000 r-xp 00000000 fd:00 20186039                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so
+7fa897bf7000-7fa897df6000 ---p 00005000 fd:00 20186039                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so
+7fa897df6000-7fa897df7000 r--p 00004000 fd:00 20186039                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so
+7fa897df7000-7fa897df8000 rw-p 00005000 fd:00 20186039                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so
+7fa897df8000-7fa897dff000 r-xp 00000000 fd:00 20186056                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so
+7fa897dff000-7fa897ffe000 ---p 00007000 fd:00 20186056                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so
+7fa897ffe000-7fa897fff000 r--p 00006000 fd:00 20186056                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so
+7fa897fff000-7fa898000000 rw-p 00007000 fd:00 20186056                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so
+7fa898000000-7fa898083000 rw-p 00000000 00:00 0 
+7fa898083000-7fa89c000000 ---p 00000000 00:00 0 
+7fa89c0ae000-7fa89c0b9000 r-xp 00000000 fd:00 44176093                   /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7fa89c0b9000-7fa89c2b8000 ---p 0000b000 fd:00 44176093                   /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7fa89c2b8000-7fa89c2b9000 r--p 0000a000 fd:00 44176093                   /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7fa89c2b9000-7fa89c2ba000 rw-p 0000b000 fd:00 44176093                   /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7fa89c2ba000-7fa89c2c0000 rw-p 00000000 00:00 0 
+7fa89c2c0000-7fa89c2d7000 r-xp 00000000 fd:00 44176087                   /lib/x86_64-linux-gnu/libnsl-2.27.so
+7fa89c2d7000-7fa89c4d6000 ---p 00017000 fd:00 44176087                   /lib/x86_64-linux-gnu/libnsl-2.27.so
+7fa89c4d6000-7fa89c4d7000 r--p 00016000 fd:00 44176087                   /lib/x86_64-linux-gnu/libnsl-2.27.so
+7fa89c4d7000-7fa89c4d8000 rw-p 00017000 fd:00 44176087                   /lib/x86_64-linux-gnu/libnsl-2.27.so
+7fa89c4d8000-7fa89c4da000 rw-p 00000000 00:00 0 
+7fa89c4da000-7fa89c4e5000 r-xp 00000000 fd:00 44176104                   /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7fa89c4e5000-7fa89c6e4000 ---p 0000b000 fd:00 44176104                   /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7fa89c6e4000-7fa89c6e5000 r--p 0000a000 fd:00 44176104                   /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7fa89c6e5000-7fa89c6e6000 rw-p 0000b000 fd:00 44176104                   /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7fa89c6e6000-7fa89c6ee000 r-xp 00000000 fd:00 44176089                   /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7fa89c6ee000-7fa89c8ee000 ---p 00008000 fd:00 44176089                   /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7fa89c8ee000-7fa89c8ef000 r--p 00008000 fd:00 44176089                   /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7fa89c8ef000-7fa89c8f0000 rw-p 00009000 fd:00 44176089                   /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7fa89c8f0000-7fa89c91c000 r-xp 00000000 fd:00 20186035                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libjava.so
+7fa89c91c000-7fa89cb1b000 ---p 0002c000 fd:00 20186035                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libjava.so
+7fa89cb1b000-7fa89cb1c000 r--p 0002b000 fd:00 20186035                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libjava.so
+7fa89cb1c000-7fa89cb1e000 rw-p 0002c000 fd:00 20186035                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libjava.so
+7fa89cb1e000-7fa89cb2b000 r-xp 00000000 fd:00 20186055                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libverify.so
+7fa89cb2b000-7fa89cd2a000 ---p 0000d000 fd:00 20186055                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libverify.so
+7fa89cd2a000-7fa89cd2c000 r--p 0000c000 fd:00 20186055                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libverify.so
+7fa89cd2c000-7fa89cd2d000 rw-p 0000e000 fd:00 20186055                   /usr/lib/jvm/java-11-openjdk-amd64/lib/libverify.so
+7fa89cd2d000-7fa89cd34000 r-xp 00000000 fd:00 44176144                   /lib/x86_64-linux-gnu/librt-2.27.so
+7fa89cd34000-7fa89cf33000 ---p 00007000 fd:00 44176144                   /lib/x86_64-linux-gnu/librt-2.27.so
+7fa89cf33000-7fa89cf34000 r--p 00006000 fd:00 44176144                   /lib/x86_64-linux-gnu/librt-2.27.so
+7fa89cf34000-7fa89cf35000 rw-p 00007000 fd:00 44176144                   /lib/x86_64-linux-gnu/librt-2.27.so
+7fa89cf35000-7fa89cf4c000 r-xp 00000000 fd:00 44175907                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fa89cf4c000-7fa89d14b000 ---p 00017000 fd:00 44175907                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fa89d14b000-7fa89d14c000 r--p 00016000 fd:00 44175907                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fa89d14c000-7fa89d14d000 rw-p 00017000 fd:00 44175907                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fa89d14d000-7fa89d2ea000 r-xp 00000000 fd:00 44176066                   /lib/x86_64-linux-gnu/libm-2.27.so
+7fa89d2ea000-7fa89d4e9000 ---p 0019d000 fd:00 44176066                   /lib/x86_64-linux-gnu/libm-2.27.so
+7fa89d4e9000-7fa89d4ea000 r--p 0019c000 fd:00 44176066                   /lib/x86_64-linux-gnu/libm-2.27.so
+7fa89d4ea000-7fa89d4eb000 rw-p 0019d000 fd:00 44176066                   /lib/x86_64-linux-gnu/libm-2.27.so
+7fa89d4eb000-7fa89d664000 r-xp 00000000 fd:00 18090134                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7fa89d664000-7fa89d864000 ---p 00179000 fd:00 18090134                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7fa89d864000-7fa89d86e000 r--p 00179000 fd:00 18090134                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7fa89d86e000-7fa89d870000 rw-p 00183000 fd:00 18090134                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7fa89d870000-7fa89d874000 rw-p 00000000 00:00 0 
+7fa89d874000-7fa89e811000 r-xp 00000000 fd:00 20186062                   /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so
+7fa89e811000-7fa89ea11000 ---p 00f9d000 fd:00 20186062                   /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so
+7fa89ea11000-7fa89ead5000 r--p 00f9d000 fd:00 20186062                   /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so
+7fa89ead5000-7fa89eb0d000 rw-p 01061000 fd:00 20186062                   /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so
+7fa89eb0d000-7fa89eb56000 rw-p 00000000 00:00 0 
+7fa89eb56000-7fa89eb70000 r-xp 00000000 fd:00 44176136                   /lib/x86_64-linux-gnu/libpthread-2.27.so
+7fa89eb70000-7fa89ed6f000 ---p 0001a000 fd:00 44176136                   /lib/x86_64-linux-gnu/libpthread-2.27.so
+7fa89ed6f000-7fa89ed70000 r--p 00019000 fd:00 44176136                   /lib/x86_64-linux-gnu/libpthread-2.27.so
+7fa89ed70000-7fa89ed71000 rw-p 0001a000 fd:00 44176136                   /lib/x86_64-linux-gnu/libpthread-2.27.so
+7fa89ed71000-7fa89ed75000 rw-p 00000000 00:00 0 
+7fa89ed75000-7fa89ed78000 r-xp 00000000 fd:00 44176026                   /lib/x86_64-linux-gnu/libdl-2.27.so
+7fa89ed78000-7fa89ef77000 ---p 00003000 fd:00 44176026                   /lib/x86_64-linux-gnu/libdl-2.27.so
+7fa89ef77000-7fa89ef78000 r--p 00002000 fd:00 44176026                   /lib/x86_64-linux-gnu/libdl-2.27.so
+7fa89ef78000-7fa89ef79000 rw-p 00003000 fd:00 44176026                   /lib/x86_64-linux-gnu/libdl-2.27.so
+7fa89ef79000-7fa89ef95000 r-xp 00000000 fd:00 44176175                   /lib/x86_64-linux-gnu/libz.so.1.2.11
+7fa89ef95000-7fa89f194000 ---p 0001c000 fd:00 44176175                   /lib/x86_64-linux-gnu/libz.so.1.2.11
+7fa89f194000-7fa89f195000 r--p 0001b000 fd:00 44176175                   /lib/x86_64-linux-gnu/libz.so.1.2.11
+7fa89f195000-7fa89f196000 rw-p 0001c000 fd:00 44176175                   /lib/x86_64-linux-gnu/libz.so.1.2.11
+7fa89f196000-7fa89f37d000 r-xp 00000000 fd:00 44176003                   /lib/x86_64-linux-gnu/libc-2.27.so
+7fa89f37d000-7fa89f57d000 ---p 001e7000 fd:00 44176003                   /lib/x86_64-linux-gnu/libc-2.27.so
+7fa89f57d000-7fa89f581000 r--p 001e7000 fd:00 44176003                   /lib/x86_64-linux-gnu/libc-2.27.so
+7fa89f581000-7fa89f583000 rw-p 001eb000 fd:00 44176003                   /lib/x86_64-linux-gnu/libc-2.27.so
+7fa89f583000-7fa89f587000 rw-p 00000000 00:00 0 
+7fa89f587000-7fa89f596000 r-xp 00000000 fd:00 20186020                   /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so
+7fa89f596000-7fa89f795000 ---p 0000f000 fd:00 20186020                   /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so
+7fa89f795000-7fa89f796000 r--p 0000e000 fd:00 20186020                   /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so
+7fa89f796000-7fa89f797000 rw-p 0000f000 fd:00 20186020                   /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so
+7fa89f797000-7fa89f7be000 r-xp 00000000 fd:00 44175975                   /lib/x86_64-linux-gnu/ld-2.27.so
+7fa89f83a000-7fa89f8a1000 rw-p 00000000 00:00 0 
+7fa89f8a1000-7fa89f8a5000 ---p 00000000 00:00 0 
+7fa89f8a5000-7fa89f9a4000 rw-p 00000000 00:00 0 
+7fa89f9a5000-7fa89f9ab000 rw-p 00000000 00:00 0 
+7fa89f9ab000-7fa89f9b2000 ---p 00000000 00:00 0 
+7fa89f9b2000-7fa89f9ba000 rw-s 00000000 fd:00 16121869                   /tmp/hsperfdata_minecraft/32536
+7fa89f9ba000-7fa89f9bb000 ---p 00000000 00:00 0 
+7fa89f9bb000-7fa89f9bc000 r--p 00000000 00:00 0 
+7fa89f9bc000-7fa89f9be000 rw-p 00000000 00:00 0 
+7fa89f9be000-7fa89f9bf000 r--p 00027000 fd:00 44175975                   /lib/x86_64-linux-gnu/ld-2.27.so
+7fa89f9bf000-7fa89f9c0000 rw-p 00028000 fd:00 44175975                   /lib/x86_64-linux-gnu/ld-2.27.so
+7fa89f9c0000-7fa89f9c1000 rw-p 00000000 00:00 0 
+7ffeef1d9000-7ffeef1fa000 rw-p 00000000 00:00 0                          [stack]
+7ffeef1fb000-7ffeef1fe000 r--p 00000000 00:00 0                          [vvar]
+7ffeef1fe000-7ffeef200000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+
+VM Arguments:
+jvm_args: -Xms3g -Xmx3g 
+java_command: server.jar nogui
+java_class_path (initial): server.jar
+Launcher Type: SUN_STANDARD
+
+Logging:
+Log output configuration:
+#0: stdout all=warning uptime,level,tags
+#1: stderr all=off uptime,level,tags
+
+Environment Variables:
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+SHELL=/bin/sh
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xd28b70], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xd28b70], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0xd28b70], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0xb2a1f0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0xb2a1f0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0xd28b70], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR2: [libjvm.so+0xb2a030], sa_mask[0]=00000000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGINT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGTERM: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGQUIT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.2 LTS"
+uname:Linux 4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019 x86_64
+libc:glibc 2.27 NPTL 2.27 
+rlimit: STACK 8192k, CORE 0k, NPROC 15099, NOFILE 4096, AS infinity, DATA infinity, FSIZE infinity
+load average:1.48 1.45 1.36
+
+/proc/meminfo:
+MemTotal:        3943748 kB
+MemFree:          117984 kB
+MemAvailable:    1304284 kB
+Buffers:           35976 kB
+Cached:          1350048 kB
+SwapCached:         7996 kB
+Active:          2703944 kB
+Inactive:         928048 kB
+Active(anon):    1844044 kB
+Inactive(anon):   432000 kB
+Active(file):     859900 kB
+Inactive(file):   496048 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:        999420 kB
+SwapFree:         597168 kB
+Dirty:              7708 kB
+Writeback:             0 kB
+AnonPages:       2243696 kB
+Mapped:           158576 kB
+Shmem:             30072 kB
+Slab:             107040 kB
+SReclaimable:      66240 kB
+SUnreclaim:        40800 kB
+KernelStack:        5984 kB
+PageTables:        23508 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2971292 kB
+Committed_AS:    3039800 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      158320 kB
+DirectMap2M:     3940352 kB
+DirectMap1G:           0 kB
+
+container (cgroup) information:
+container_type: cgroupv1
+cpu_cpuset_cpus: 0-3
+cpu_memory_nodes: 0
+active_processor_count: 4
+cpu_quota: -1
+cpu_period: 100000
+cpu_shares: -1
+memory_limit_in_bytes: -1
+memory_and_swap_limit_in_bytes: -2
+memory_soft_limit_in_bytes: -1
+memory_usage_in_bytes: 3718131712
+memory_max_usage_in_bytes: 2048000
+
+
+CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 69 stepping 1, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, fma
+CPU Model and flags from /proc/cpuinfo:
+model name	: Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts flush_l1d
+
+Memory: 4k page, physical 3943748k(117984k free), swap 999420k(597168k free)
+
+vm_info: OpenJDK 64-Bit Server VM (10.0.2+13-Ubuntu-1ubuntu0.18.04.4) for linux-amd64 JRE (10.0.2+13-Ubuntu-1ubuntu0.18.04.4), built on Nov 13 2018 12:53:39 by "buildd" with gcc 7.3.0
+
+END.

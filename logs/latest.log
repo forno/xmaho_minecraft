@@ -1,78 +1,37 @@
-[12:02:32] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:02:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:02:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:02:32] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:02:32] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:02:32] [main/INFO]: Loaded 0 recipes
-[12:02:32] [main/INFO]: Loaded 0 advancements
-[12:02:32] [Server thread/INFO]: Starting minecraft server version 1.13.2
-[12:02:32] [Server thread/INFO]: Loading properties
-[12:02:32] [Server thread/INFO]: Default game type: SURVIVAL
-[12:02:32] [Server thread/INFO]: Generating keypair
-[12:02:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:02:33] [Server thread/INFO]: Using epoll channel type
-[12:02:33] [Server thread/INFO]: Preparing level "world"
-[12:02:33] [Server thread/INFO]: Reloading ResourceManager: Default
-[12:02:35] [Server thread/INFO]: Loaded 524 recipes
-[12:02:36] [Server thread/INFO]: Loaded 571 advancements
-[12:02:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:02:37] [Server thread/INFO]: Preparing spawn area: 4%
-[12:02:37] [Server thread/INFO]: Preparing spawn area: 8%
-[12:02:37] [Server thread/INFO]: Preparing spawn area: 12%
-[12:02:38] [Server thread/INFO]: Preparing spawn area: 16%
-[12:02:38] [Server thread/INFO]: Preparing spawn area: 20%
-[12:02:38] [Server thread/INFO]: Preparing spawn area: 24%
-[12:02:38] [Server thread/INFO]: Preparing spawn area: 28%
-[12:02:38] [Server thread/INFO]: Preparing spawn area: 32%
-[12:02:39] [Server thread/INFO]: Preparing spawn area: 36%
-[12:02:39] [Server thread/INFO]: Preparing spawn area: 40%
-[12:02:39] [Server thread/INFO]: Preparing spawn area: 44%
-[12:02:39] [Server thread/INFO]: Preparing spawn area: 48%
-[12:02:40] [Server thread/INFO]: Preparing spawn area: 52%
-[12:02:41] [Server thread/INFO]: Preparing spawn area: 56%
-[12:02:41] [Server thread/INFO]: Preparing spawn area: 60%
-[12:02:41] [Server thread/INFO]: Preparing spawn area: 64%
-[12:02:41] [Server thread/INFO]: Preparing spawn area: 68%
-[12:02:42] [Server thread/INFO]: Preparing spawn area: 72%
-[12:02:42] [Server thread/INFO]: Preparing spawn area: 76%
-[12:02:42] [Server thread/INFO]: Preparing spawn area: 80%
-[12:02:42] [Server thread/INFO]: Preparing spawn area: 84%
-[12:02:42] [Server thread/INFO]: Preparing spawn area: 88%
-[12:02:42] [Server thread/INFO]: Preparing spawn area: 92%
-[12:02:42] [Server thread/INFO]: Preparing spawn area: 96%
-[12:02:42] [Server thread/INFO]: Preparing spawn area: 100%
-[12:02:42] [Server thread/INFO]: Time elapsed: 5791 ms
-[12:02:42] [Server thread/INFO]: Done (8.789s)! For help, type "help"
-[12:02:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[21:46:21] [User Authenticator #1/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
-[21:46:22] [Server thread/INFO]: pura1980[/211.8.2.72:53276] logged in with entity id 617 at (-1341.9892930462418, 64.0, 3376.9950884148707)
-[21:46:22] [Server thread/INFO]: pura1980 joined the game
-[21:46:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2621ms or 52 ticks behind
-[21:46:30] [Server thread/INFO]: pura1980 lost connection: Disconnected
-[21:46:30] [Server thread/INFO]: pura1980 left the game
-[21:46:33] [User Authenticator #2/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
-[21:46:34] [Server thread/INFO]: pura1980[/211.8.2.72:53278] logged in with entity id 912 at (-1341.9892930462418, 64.0, 3376.9950884148707)
-[21:46:34] [Server thread/INFO]: pura1980 joined the game
-[21:47:08] [Server thread/INFO]: pura1980 lost connection: Disconnected
-[21:47:08] [Server thread/INFO]: pura1980 left the game
-[21:47:10] [User Authenticator #3/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
-[21:47:11] [Server thread/INFO]: pura1980[/211.8.2.72:53282] logged in with entity id 1268 at (-1343.3575564330185, 64.0, 3379.439960429545)
-[21:47:11] [Server thread/INFO]: pura1980 joined the game
-[21:47:40] [Server thread/INFO]: pura1980 lost connection: Disconnected
-[21:47:40] [Server thread/INFO]: pura1980 left the game
-[21:47:48] [User Authenticator #4/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
-[21:47:48] [Server thread/INFO]: pura1980[/211.8.2.72:53289] logged in with entity id 1644 at (-1347.678286572259, 64.0, 3375.003246042922)
-[21:47:48] [Server thread/INFO]: pura1980 joined the game
-[21:48:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2315ms or 46 ticks behind
-[21:50:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2533ms or 50 ticks behind
-[22:43:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
-[22:43:19] [Server thread/WARN]: pura1980 moved too quickly! -62.8305494904061,14.233632006042477,-1683.510509612818
-[22:43:20] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[22:43:20] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[22:46:37] [Server thread/WARN]: pura1980 moved too quickly! 595.7370627575289,-39.021296459069475,716.080601774001
-[23:32:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
-[23:35:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
-[23:35:30] [Server thread/WARN]: pura1980 moved too quickly! -63.01166850607356,13.945106652967922,-1682.6662047041305
-[23:38:27] [Server thread/WARN]: pura1980 moved too quickly! 596.5023799110575,-38.6663676124878,718.3278065190464
-[23:58:26] [Server thread/INFO]: pura1980 lost connection: Disconnected
-[23:58:26] [Server thread/INFO]: pura1980 left the game
+[00:05:01] [User Authenticator #2/INFO]: UUID of player pura1980 is b06fd1cb-bf81-44e9-ad8b-001e954b7932
+[00:05:01] [Server thread/INFO]: pura1980[/211.8.2.72:63514] logged in with entity id 53256 at (597.302649202489, 24.5625, 719.0204740351096)
+[00:05:01] [Server thread/INFO]: pura1980 joined the game
+[00:34:09] [Server thread/WARN]: pura1980 moved too quickly! -61.80247044101958,14.1875,-1683.591579832306
+[00:37:08] [Server thread/WARN]: pura1980 moved too quickly! 595.2676163546481,-38.6663676124878,718.0530957564354
+[01:45:19] [Server thread/INFO]: pura1980 lost connection: Disconnected
+[01:45:19] [Server thread/INFO]: pura1980 left the game
+[12:00:06] [Server thread/INFO]: [Server] SERVER SHUTTING DOWN. Saving map...
+[12:00:06] [Server thread/INFO]: Saving the game (this may take a moment!)
+[12:00:06] [Server thread/INFO]: Saved the game
+[12:00:06] [Server thread/INFO]: Stopping the server
+[12:00:06] [Server thread/INFO]: Stopping server
+[12:00:06] [Server thread/INFO]: Saving players
+[12:00:06] [Server thread/INFO]: Saving worlds
+[12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[12:00:06] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: 入力/出力エラーです
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:280) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at so$2.run(SourceFile:110) [server.jar:?]
+[12:00:06] [Server Shutdown Thread/INFO]: Stopping server
+[12:00:06] [Server Shutdown Thread/INFO]: Saving players
+[12:00:06] [Server Shutdown Thread/INFO]: Saving worlds
+[12:00:06] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[12:00:06] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[12:00:06] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld

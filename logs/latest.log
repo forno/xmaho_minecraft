@@ -5,9 +5,9 @@
 [12:00:06] [Server thread/INFO]: Stopping server
 [12:00:06] [Server thread/INFO]: Saving players
 [12:00:06] [Server thread/INFO]: Saving worlds
-[12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
 [12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
 [12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[12:00:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
 [12:00:06] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: 入力/出力エラーです
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
@@ -25,5 +25,4 @@ java.io.IOException: 入力/出力エラーです
 [12:00:06] [Server Shutdown Thread/INFO]: Stopping server
 [12:00:06] [Server Shutdown Thread/INFO]: Saving players
 [12:00:06] [Server Shutdown Thread/INFO]: Saving worlds
-[12:00:06] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
 [12:00:06] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
